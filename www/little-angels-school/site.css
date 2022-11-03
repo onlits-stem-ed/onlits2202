@@ -1,0 +1,48 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+#contact-area {
+    padding-top: 5px;
+    background-color: cornflowerblue;
+    color: beige;
+}
+
+h1.sub-head {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: beige;
+    padding-left: 10px;
+}
+
+#nav {
+    padding-top: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.grid-container-3-col {
+    background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}

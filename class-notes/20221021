@@ -1,0 +1,23 @@
+
+	C++ is an Object Programming Language
+	
+	C++ is a multi-paradigm programming language.
+	
+	WAP to accept two points on a plane and find the co-ordinates of
+	the 3rd point which is the sum of the co-ordinates of the first two.
+	
+	Can we display name of varible in a C/C++ program.
+	
+	Reflection
+	
+	Encapsulation: The wrapping up of data and function into a single unit
+				   (called class) is called encapsulation.
+				   
+	
+	Private
+	Public
+	Protected
+	
+	Constructor (Default, Parameterized)
+	Function Overloading
+	Operator Overloading

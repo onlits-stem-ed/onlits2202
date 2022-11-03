@@ -1,0 +1,27 @@
+
+	Bad code
+	
+	Hard skills	-	Coding, testing
+	Soft skills	-	Communition
+
+
+	Existing
+	- Our program is capable of creating and handling on array.
+	
+	Required
+	- Our program should be capable of creating and handling multiple
+	  arrays
+	
+	How will it be done?
+	- We may use array of arrays (two-dimensional array)
+	
+	
+	
+	Practice programs:
+		ept some integers in two arrays and merge them.
+		2. WAP to accept some integer in an array of arrays and merge
+		   them.
+		   
+		   
+		1. Can we have default argument in a C function?
+		2. Do we have jagged arrays in C?

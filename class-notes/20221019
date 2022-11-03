@@ -1,0 +1,23 @@
+
+	DRY	=	Don't Repeat Yourself
+	
+	Data type specifier
+		int
+		char
+		float
+	
+	Type modifier
+		signed
+		unsigned
+	
+	Storage class specifier
+		auto
+		extern
+		static
+		register
+	
+	scope
+	visibility
+	lifetime
+		
+		signed	-21
