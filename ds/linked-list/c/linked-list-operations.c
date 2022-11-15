@@ -7,9 +7,9 @@ typedef struct node
     struct node *link;
 } NODE;
 
-void display(NODE *head);
-void insert(NODE *head);
-void delete(NODE * head);
+void display(NODE **head);
+void insert(NODE **head);
+void delete(NODE *head);
 void sort(NODE *head);
 void search(NODE *head);
 
@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 {
     int ch;
     NODE *head = NULL;
-
+    printf("main(): address of head: %p\n", &head);
     while (1)
     {
         printf("\nMAIN MENU\n\n");
@@ -35,10 +35,11 @@ int main(int argc, char const *argv[])
             printf("\nBye...\n");
             break;
         case 1:
-            display(head);
+            display(&head);
             break;
         case 2:
-            insert(head);
+            insert(&head);
+            printf("main(): head contains %p.\n", head);
             break;
         case 3:
             // delete (arr, &size);
@@ -56,21 +57,35 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-void display(NODE *head)
+void display(NODE **head)
 {
-    if(head == NULL)
+    if(*head == NULL)
     {
         printf("\nList is empty, there is nothing to print.\n\n");
         return;
     }
+
+    NODE **itr = head;           //itr from iterator
+    while ((*itr)->link != NULL)
+    {
+        printf("%d", (*itr)->data);
+        (*itr) = (*itr)->link;
+    }
 }
 
-void insert(NODE *head)
+void insert(NODE **head)
 {
-    if(head == NULL)
+    NODE **itr = head;
+    // printf("itr = %p\n", itr);
+    printf("head: %p\n", head);
+    printf("*head: %p\n", *head);
+    if((*itr) == NULL)
     {
-        head = (NODE*)malloc(sizeof(NODE));
-        printf("head contains %p.\n", head);
+        (*itr) = (NODE*)malloc(sizeof(NODE));
+        printf("Enter a value: ");
+        scanf("%d", &(*itr)->data);
+        (*itr)->link = NULL;
+        printf("insert(): *head contains %p.\n", itr);
     }
 }
 
