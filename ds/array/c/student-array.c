@@ -5,6 +5,7 @@ typedef struct student
 {
     int roll_no;
     char name[50];
+    char gender;
 } STUDENT;
 
 void display(STUDENT *students, int *size);
@@ -62,5 +63,12 @@ void display(STUDENT *students, int *size)
 
 void insert(STUDENT *students, int *size)
 {
-    
+    printf("Enter roll number: ");
+    scanf("%d%*c", &students[*size].roll_no);
+    printf("Enter student name: ");
+    scanf("%[^\n]%*c", students[*size].name);
+    printf("Enter gender: ");
+    scanf("%c", &students[*size].gender);
+    (*size)++;
+    printf("\nNew student data inserted!\n\n");
 }
