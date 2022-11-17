@@ -65,28 +65,29 @@ void display(NODE **head)
         return;
     }
 
-    NODE **itr = head;           //itr from iterator
-    while ((*itr)->link != NULL)
+    NODE *itr = *head;           //itr from iterator
+    printf("\nThe list contains following elements:\n\n");
+    while ((itr) != NULL)
     {
-        printf("%d", (*itr)->data);
-        (*itr) = (*itr)->link;
+        printf("%d", (itr)->data);
+        (itr) = (itr)->link;
     }
+    printf("\nEnd of list.\n\n");
 }
 
 void insert(NODE **head)
 {
-    NODE **itr = head;
-    // printf("itr = %p\n", itr);
-    printf("head: %p\n", head);
-    printf("*head: %p\n", *head);
-    if((*itr) == NULL)
+    if((*head) == NULL)
     {
-        (*itr) = (NODE*)malloc(sizeof(NODE));
+        (*head) = (NODE*)malloc(sizeof(NODE));
         printf("Enter a value: ");
-        scanf("%d", &(*itr)->data);
-        (*itr)->link = NULL;
-        printf("insert(): *head contains %p.\n", itr);
+        scanf("%d", &(*head)->data);
+        (*head)->link = NULL;
+        printf("\nData saved!\n\n");
+        return;
     }
+
+
 }
 
 void delete(NODE * head)
