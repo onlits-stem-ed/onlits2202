@@ -1,0 +1,42 @@
+
+	strlen()
+	
+	int a[10];
+	
+	printf(), scanf()
+	
+	Grammar + Composition
+	
+	Identifying Objects
+	
+	OOP is used to create real life programs
+	
+	YAGNI: You aren't gonna need it.
+	
+	int
+	2 + 3
+	
+
+	int main()
+	{
+		integer a, b, c;
+		
+		c = a + b;
+	}
+	
+	date can be an object
+	
+	Characteristics of a good student
+	
+	What is Teachable?
+	
+	complex number
+	
+	int main()
+	{
+		matrix m1, m2, m3;
+		
+		m3 = m1 + m2;		// C++
+		m3 = m1.plus(m2);	// C++ / Java
+		
+	}
