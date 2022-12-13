@@ -1,0 +1,22 @@
+
+	Java Naming Convention:
+		Class	-	PascalCase
+		Method	-	camelCase
+		Field	-	camelCase
+		Constant-	UPPERCASE
+		
+	Access specifier/modifier
+		public		-	C++, Java
+		private		-	C++, Java
+		protected	-	C++, Java
+		default		-	Java
+		
+		
+	switch()
+	{
+		case 1:
+		
+		case 2:
+		
+		default:
+	}

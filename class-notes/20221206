@@ -1,0 +1,58 @@
+
+	DRY:		Don't Repeat Yourself
+	YAGNI:		You Aren't Gonna Need It
+	KISS:		Keep It Simple Stupid
+	
+	HTML
+	CSS
+	JS
+	PHP
+	
+	In general objects represents real life objects.
+	
+	Examples of Objects:
+		Date (dd, mm, yyyy)
+		Time	(hh, mm, ss, ms, meridiam)
+		String (group of characters)
+		Resume	(name, dob, qualification, experience etc.)
+		Stock Item (name, unit, price)
+		Employee (id, name, dob, designation)
+		
+	1. Encapsulation
+	2. Abstraction
+	3. Inheritance
+	4. Polymorphism
+	
+	
+	int a[10] = {1, 2, 3};
+	int b = 10;
+	
+	
+	class student
+	{
+		int roll_no;
+		string name;
+		
+		student(int roll_no, string name)	//constructor
+		{
+			this->roll_no = roll_no;
+			this->name = name;			//incorrect
+		} 
+	};
+	
+	int main()
+	{
+		student s1 = student(1, "Aparna Kumari");	//Explicit call to constructor
+		student s2 (2, "Shifa Aslan");		//Implicit call to constructor
+	}
+	
+	Verbose
+	
+	Complex Number
+	
+	real
+	imaginary
+	
+	squareroot of -4
+	
+	

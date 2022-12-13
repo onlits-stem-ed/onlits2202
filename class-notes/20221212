@@ -1,0 +1,25 @@
+
+	Java is much richer in terms of code library than C++.
+	
+	Technology = (Language + Tools + Library)
+	
+	.Net - Technology
+		(C#, F#, VB, VC++)
+		
+	Network
+	
+	class student
+	{
+		int rollno;
+		char name[30];
+	}
+	
+	class bca_student : student
+	{
+
+	};
+	
+	class bba_student : student
+	{
+		char specialization[20];
+	};
