@@ -20,3 +20,22 @@
 		
 		default:
 	}
+	
+	
+	1. Encapsulation (data-hiding)
+	2. Abstraction
+	3. Inheritance
+	4. Polymorphism
+	
+	Identifier	-	letter, digits and underscore
+	
+	Dynamic Memory Allocation
+	
+	int *p = (*int)malloc(sizeof(int) * 4);
+	int a;
+	
+	complex t;		//static allocation
+	complex *t = new complex();
+	
+	cell -> object
+	
