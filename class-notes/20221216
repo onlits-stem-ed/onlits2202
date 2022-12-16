@@ -1,0 +1,45 @@
+class notice
+	{
+		char issuing_authority[50];
+		char date[11];
+		char title[100];
+		char body[500];
+		char authorised_signatory[50];
+		char designation[50];
+		
+	public:
+		getdata()		set()
+		{
+			
+		}
+		
+		putdata()		get()
+		{
+			
+		}
+	}
+	
+	int main()
+	{
+		notice n;
+		n.issuing_authority = "";
+	}
+	
+	inline function	=	Macro substitution
+	virtual function
+	friend function
+	
+	::	= scope resolution operator
+	
+	inline printf()
+	{
+	
+	
+	}
+	
+	printf();
+	
+	printf();
+	
+	printf();
+	
