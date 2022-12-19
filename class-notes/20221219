@@ -1,0 +1,25 @@
+
+	3/4th should speak about problem.
+	1/4th should speak about solution.
+	
+	- Most freshers do not known what a good resume is composed of.
+	- Most freshers are not good in word processing, hence are not able
+	  to format their resume properly.
+	- Creating a resume using word processing software require knowledge
+	  of word processing software and also it is time comsuming process.
+	  
+	  
+	  Format painter
+	  
+	  Analysis	:	What is the problem?
+	  
+	  - Feasibility Analysis
+	  		- Technical Feasibility
+	  		- Economic Feasibility
+	  		
+	  		
+	  - Software Requirement Specification
+	  
+	  scanf("%[^\n]", str);
+	  
+	  WAP in C/C++/Java to display a string in center of the screen.
