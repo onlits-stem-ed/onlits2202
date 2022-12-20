@@ -1,4 +1,8 @@
 #include <iostream>
+#include <cstring>
+
+#define WIDTH 80
+
 using namespace std;
 
 class notice
@@ -9,9 +13,12 @@ class notice
     char body[500];
     char authorised_signatory[50];
     char designation[50];
+
 public:
     void getdata();
     void putdata();
+    void print_center(char *s);
+    void print_right(char *s);
 };
 
 void notice::getdata()
@@ -23,6 +30,7 @@ void notice::getdata()
     cout << "Date: ";
     cin >> date;
     cout << "Title: ";
+    getchar();
     cin.getline(title, 50);
     cout << "Body: ";
     cin.getline(body, 500);
@@ -34,13 +42,27 @@ void notice::getdata()
 
 void notice::putdata()
 {
-    cout << "NOTICE" << endl;
-    cout << issuing_authority << endl;
-    cout << date << endl;
-    cout << title << endl;
-    cout << body << endl;
-    cout << authorised_signatory << endl;
-    cout << designation << endl;
+    cout << endl;
+    print_center("NOTICE");
+    print_center(issuing_authority);
+    print_right(date);
+    print_center(title);
+    cout << endl << body << endl << endl;
+    print_right(authorised_signatory);
+    print_right(designation);
+}
+
+void notice::print_center(char *s)
+{
+    int len = strlen(s);
+    printf("%*s\n", 40 - (len / 2), s);
+    printf("%d-%d\n", WIDTH, len);
+}
+
+void notice::print_right(char *s)
+{
+    int len = strlen(s);
+    printf("%*s\n", WIDTH - len, s);
 }
 
 int main(int argc, char const *argv[])
