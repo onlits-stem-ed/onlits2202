@@ -1,0 +1,12 @@
+
+	h^2 = b^2 + h^2;
+	
+	Original language features gets updated.
+	
+	ANSI has brought in many new features in C++.
+		One of them is string class.
+		
+	Bytecode
+	
+	1. Source code is compiled to Bytecode (.class).
+	2. Bytecode is executed by Java Interpreter
