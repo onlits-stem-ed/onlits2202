@@ -1,0 +1,2 @@
+WAP to accept an integer and convert into 32-bit binary.
+
