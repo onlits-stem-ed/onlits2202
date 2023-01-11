@@ -66,7 +66,7 @@ void menu()
     }
 }
 
-void new_item()
+void new_item()     //13.8
 {
     FILE *fp;
     fp = fopen(FILENAME, "a");
@@ -100,7 +100,7 @@ void delete_item()
     printf("\n...Under construction\n\n");
 }
 
-void list_items()
+void list_items()   //almost 13.9
 {
     FILE *fp;
     fp = fopen(FILENAME, "r");

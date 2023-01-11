@@ -1,0 +1,30 @@
+
+	Java vs C
+	Java vs C++
+		No Operator Overloading in Java
+
+	The Imitation Game
+	Alan Turing
+
+	General Problem Solver
+
+	Expert System
+
+	A-X-L
+
+	Logic Programming	-	ProLog
+
+	Knowledge Base
+		- Facts
+		- Rules
+
+	Database ???
+
+	If we can create our own file in any programming 
+	language then what is the need of using database.
+
+	1. Sequential (top-bottom)
+	2. Random Access (move freely both ways)
+
+
+	
